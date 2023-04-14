@@ -91,7 +91,7 @@ VALUES
 	('2022100000', 'Charlie Sheen', '000000000-00', 4);
     
  set sql_safe_updates=0;
- SET forign_key_checks=0; 
+ SET foreign_key_checks=0; 
     
 
 INSERT INTO turma (id_turma, professor, aluno, curso, ano, periodo)
